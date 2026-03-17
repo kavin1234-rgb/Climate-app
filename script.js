@@ -70,7 +70,7 @@ labels:labels,
 datasets:[{
 label:"Temperature °C",
 data:temps,
-borderColor:"yellow",
+borderColor:"red",
 fill:false
 }]
 }

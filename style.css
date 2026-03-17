@@ -1,8 +1,8 @@
 body{
 margin:0;
-font-family:Arial;
-background:#0b3c5d;
-color:white;
+font-family:Sans;
+background:#918151;
+color:black;
 text-align:center;
 }
 
@@ -19,14 +19,14 @@ margin-bottom:20px;
 }
 
 .current{
-background:#08304d;
+background:#d2b48c;
 padding:20px;
 border-radius:10px;
 }
 
 .hourly{
 margin-top:20px;
-background:#08304d;
+background:#d2b48c ;
 padding:15px;
 border-radius:10px;
 }
@@ -37,7 +37,7 @@ overflow-x:auto;
 }
 
 .hourCard{
-background:#0f4c75;
+background:#a67b5b;
 margin:10px;
 padding:10px;
 border-radius:10px;
@@ -47,14 +47,14 @@ text-align:center;
 
 .chart{
 margin-top:20px;
-background:#08304d;
+background:#d2b48c ;
 padding:15px;
 border-radius:10px;
 }
 
 .daily{
 margin-top:20px;
-background:#08304d;
+background:#d2b48c;
 padding:15px;
 border-radius:10px;
 }
@@ -62,13 +62,13 @@ border-radius:10px;
 .dayRow{
 display:flex;
 justify-content:space-between;
-border-bottom:1px solid #1c6ea4;
+border-bottom:1px solid #a0522d ;
 padding:8px;
 }
 
 .prediction{
 margin-top:20px;
-background:#7b1e1e;
+background:#e9967a ;
 padding:15px;
 border-radius:10px;
 text-align:left;

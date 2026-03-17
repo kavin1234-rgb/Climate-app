@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tamil Nadu Climate Monitor</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+<div class="app">
+
+<h2>🌍 Tamil Nadu Climate Monitor</h2>
+
+<select id="districtSelect" onchange="getWeather()">
+<option>Chennai</option>
+<option>Coimbatore</option>
+<option>Madurai</option>
+<option>Salem</option>
+<option>Trichy</option>
+<option>Tirunelveli</option>
+<option>Thoothukudi</option>
+<option>Kanyakumari</option>
+<option>Erode</option>
+<option>Vellore</option>
+<option>Chengalpattu</option>
+<option>Kanchipuram</option>
+<option>Tiruvallur</option>
+<option>Ranipet</option>
+<option>Tirupattur</option>
+<option>Krishnagiri</option>
+<option>Dharmapuri</option>
+<option>Namakkal</option>
+<option>Tiruppur</option>
+<option>Nilgiris</option>
+<option>Dindigul</option>
+<option>Theni</option>
+<option>Sivagangai</option>
+<option>Ramanathapuram</option>
+<option>Virudhunagar</option>
+<option>Perambalur</option>
+<option>Ariyalur</option>
+<option>Karur</option>
+<option>Pudukkottai</option>
+<option>Thanjavur</option>
+<option>Tiruvarur</option>
+<option>Nagapattinam</option>
+<option>Mayiladuthurai</option>
+<option>Cuddalore</option>
+<option>Villupuram</option>
+<option>Kallakurichi</option>
+<option>Tiruvannamalai</option>
+</select>
+
+<section class="current">
+<h1 id="temp">--°C</h1>
+<p id="condition">--</p>
+<p id="location">--</p>
+<p>Rainfall: <span id="rain"></span> mm</p>
+<p>Humidity: <span id="humidity"></span>%</p>
+</section>
+
+<section class="hourly">
+<h3>Hourly Forecast</h3>
+<div id="hourly"></div>
+</section>
+
+<section class="chart">
+<h3>Temperature Chart</h3>
+<canvas id="tempChart"></canvas>
+</section>
+
+<section class="daily">
+<h3>7 Day Forecast</h3>
+<div id="daily"></div>
+</section>
+
+<section class="prediction">
+<h3>⚠ Climate Prediction</h3>
+<p><b>Prediction:</b> <span id="predictionResult">--</span></p>
+<ul id="safetyList"></ul>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
